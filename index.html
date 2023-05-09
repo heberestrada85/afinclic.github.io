@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
   <section class="init text-white pt-4" id="inicio">
@@ -50,8 +52,8 @@
     <div class="container position-relative">
       <article class="row">
         <div class="col-sm-12 col-md-8 d-flex align-items-start flex-column justify-content-center px-4">
-          <p class="custom2">¡Tu dinero <span class="d-block">bien <strong>protegido</strong>!</span></p>
-          <ul class="items_slide">
+          <p class="custom2" data-aos="fade-left">¡Tu dinero <span class="d-block">bien <strong>protegido</strong>!</span></p>
+          <ul class="items_slide"  data-aos="fade-up">
             <li>¿Estas en riesgo de perder tu ahorro por robo, polleros o migra?</li>
             <li>¿Te cuesta muy caro enviarle dinero a tu familia?</li>
             <li>¿No usan correctamente el dinero que les envías?</li>
@@ -61,16 +63,16 @@
         </div>
         <div class="col-sm-12 col-md-4 d-flex">
           <aside class="position-relative py-5">
-            <img class="bg_slide" src="assets/bg_slide.png" alt="Imagen de fondo" height="865">
+            <img data-aos="fade-reight" class="bg_slide" src="assets/bg_slide.png" alt="Imagen de fondo" height="865">
             <div class="position-absolute c1">
               <a class="btn_" href="#" target="_blank" rel="noopener noreferrer">Abrir mi cuenta</a>
               <div class="text-center mt-3">
                 <a class="text-decoration-none" href="#" target="_blank" rel="noopener noreferrer">
-                  <img class="mt-1 mx-1" alt="Botón App store" width="130"
+                  <img data-aos="fade-up" class="mt-1 mx-1" alt="Botón App store" width="130"
                     src="assets/button_app_store.svg">
                 </a>
                 <a class="text-decoration-none" href="#" target="_blank" rel="noopener noreferrer">
-                  <img class="mt-1 mx-1" alt="Botón Google store" width="130"
+                  <img data-aos="fade-up"  data-aos-duration="2000" class="mt-1 mx-1" alt="Botón Google store" width="130"
                     src="assets/button_google_play.svg">
                 </a>
               </div>
@@ -89,28 +91,28 @@
   <section id="servicios" class="servicios">
     <div class="container">
       <p class="fs-2">
-        <span class="d-block"><strong>AfinClic</strong> te ayuda a tener una cuenta segura para guardar tu dinero, hacer envíos</span>
-        <span class="d-block">ilimitados a tu familia y guiarte para que obtengas préstamos en USA y México.</span>
+        <span data-aos="fade-left" class="d-block"><strong>AfinClic</strong> te ayuda a tener una cuenta segura para guardar tu dinero, hacer envíos</span>
+        <span data-aos="fade-left" class="d-block">ilimitados a tu familia y guiarte para que obtengas préstamos en USA y México.</span>
       </p>
-      <p class="fs-2 fw-bold">
+      <p  data-aos="fade-right" class="fs-2 fw-bold">
         Con tu cuenta AfinClic podrás hacer esto en USA o México:
       </p>
       <div class="row">
-        <figure class="col-sm-12 col-md-4">
+        <figure data-aos="fade-up" class="col-sm-12 col-md-4">
           <img class="d-block mx-auto" src="assets/beneficio_1.svg" alt="" width="140">
           <figcaption class="fs-3 lh-1">Guardar tu dinero en un lugar seguro donde tu estes</figcaption>
         </figure>
-        <figure class="col-sm-12 col-md-4">
+        <figure data-aos="fade-up" class="col-sm-12 col-md-4">
           <img class="d-block mx-auto" src="assets/beneficio_2.svg" alt="" width="140">
           <figcaption class="fs-3 lh-1">Entregar dinero a tu familia sin costo donde ellos estén</figcaption>
         </figure>
-        <figure class="col-sm-12 col-md-4">
+        <figure data-aos="fade-up" class="col-sm-12 col-md-4">
           <img class="d-block mx-auto" src="assets/beneficio_3.svg" alt="" width="140">
           <figcaption class="fs-3 lh-1">Obtener préstamos en USA o México</figcaption>
         </figure>
       </div>
       <ul class="">
-        <li class="d-flex align-items-center my-5">
+        <li data-aos="fade-right" class="d-flex align-items-center my-5">
           <img src="assets/beneficio_1.png" width="338" alt="Trjeta AfinClic 1" loading="lazy">
           <div class="text-start d-inline-block px-5">
             <span class="d-block">Depósitos y compras en USA</span>
@@ -118,7 +120,7 @@
             <span class="d-block">Préstamos en USA y Mexico</span>
           </div>
         </li>
-        <li class="d-flex flex-row-reverse align-items-center my-5">
+        <li data-aos="fade-left" class="d-flex flex-row-reverse align-items-center my-5">
           <img src="assets/beneficio_2.png" width="338" alt="Trjeta AfinClic 2" loading="lazy">
           <div class="text-start d-inline-block px-5">
             <span class="d-block">Préstamo en LATAM para servicios salud</span>
@@ -127,7 +129,7 @@
             <span class="d-block">Mensualidad adaptable</span>
           </div>
         </li>
-        <li class="d-flex align-items-center my-5">
+        <li data-aos="fade-right" class="d-flex align-items-center my-5">
           <img src="assets/beneficio_3.png" width="338" alt="Trjeta AfinClic 3" loading="lazy">
           <div class="text-start d-inline-block px-5">
             <span class="d-block">Préstamo en LATAM para construcción</span>
@@ -143,24 +145,24 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-8 d-flex align-items-start flex-column justify-content-between px-4">
-          <h2 class="custom2 mb-5">
+          <h2 data-aos="fade-right" class="custom2 mb-5">
             <span class="d-block">¿Como funciona</span>
             <span class="d-block">tu cuenta<strong>AfinClic</strong>?</span>
           </h2>
           <div class="ps-4">
-            <div class="row">
+            <div data-aos="fade-right" data-aos-duration="2000" class="row">
               <select> 
                 <option>Cuenta</option>
               </select>
               <p class="m-0">*Clic para más info</p>
             </div>
-            <div class="row">
+            <div data-aos="fade-right" data-aos-duration="1500" class="row">
               <select> 
                 <option>Entregar dinero</option>
               </select>
               <p class="m-0">*Clic para más info</p>
             </div>
-            <div class="row">
+            <div data-aos="fade-right" data-aos-duration="1000" class="row">
               <select> 
                 <option>Préstamos</option>
               </select>
@@ -168,7 +170,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 d-flex align-items-center">
+        <div data-aos="fade-left" class="col-sm-12 col-md-4 d-flex align-items-center">
           <img src="assets/app.png" alt="Imagen de la app" width="590">
         </div>
       </div>
@@ -243,8 +245,8 @@
     <section id="nosotros" class="nosotros text-center color_2 fs-4">
       <div class="container">
         <div class="position-relative">
-          <img class="position-absolute img_app_2" src="assets/app_2.png" alt="Imagen de la app">
-          <div class="card_custom custom3">
+          <img data-aos="fade-right" class="position-absolute img_app_2" src="assets/app_2.png" alt="Imagen de la app">
+          <div data-aos="fade-left" class="card_custom custom3">
             <p class="text-start">
               <span class="d-block">AfinClic nace de la integración de dos expertos, uno con más de 43 años operando</span>
               <span class="d-block">prestamos en todo México y otro especialista en algoritmos de inteligencia artificial.</span>
@@ -254,7 +256,7 @@
               <span class="d-block">financieras agradable que les permitan incrementar su patrimonio familiar.</span>
             </p>
           </div>
-          <div class="card_custom custom4">
+          <div data-aos="fade-left" data-aos-duration="2000" class="card_custom custom4">
             <p class="text-start">
               <span class="d-block">Nuestra misión es otorgar prestamos a personas sin acceso al financiamiento</span>
               <span class="d-block">formal de la forma más rápida, fácil y barata.</span>
@@ -266,13 +268,13 @@
           </div>
         </div>
         <div class="row p-c">
-          <figure class="col-sm-12 col-md-6">
+          <figure data-aos="fade-down" data-aos-duration="1000" class="col-sm-12 col-md-6">
             <img class="mb-3" src="assets/mex.svg" alt="Dirección de México" width="64">
             <figcaption>
               <address>José Clemente Orozco #329, Piso 26,<br>C.P. 66278 SPGG, NL, México.</address>
             </figcaption>
           </figure>
-          <figure class="col-sm-12 col-md-6">
+          <figure data-aos="fade-down" data-aos-duration="2000" class="col-sm-12 col-md-6">
             <img class="mb-3" src="assets/usa.svg" alt="Dirección de USA" width="64">
             <figcaption>
               <address>1151 Kessler Dr, 79907,<br>El Paso TX, USA.</address>
@@ -283,12 +285,12 @@
     </section>
     <section id="preguntas_frecuentes" class="preguntas_frecuentes color_2 text-center">
       <div class="container">
-        <p class="fw-bold fs-2">
+        <p data-aos="fade-right" class="fw-bold fs-2">
           Una aplicación móvil con algoritmos de inteligencia artificial que le permite casi a cualquier persona acceder a un
           préstamo formal y barato en 24 horas.
         </p>
         <div class="row my-5">
-          <div class="col-sm-12 col-md-4">
+          <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-12 col-md-4">
             <h3 class="btn_faq my-4 d-inline-block px-5">Cuenta</h3>
             <ul class="fs-4">
               <li>¿Necesito papeles USA?</li>
@@ -297,7 +299,7 @@
               <li>¿Donde retiro mi dinero? ¿Quien cuida mi dinero?</li>
             </ul>
           </div>
-          <div class="col-sm-12 col-md-4">
+          <div data-aos="fade-up" data-aos-duration="1500" class="col-sm-12 col-md-4">
             <h3 class="btn_faq my-4 d-inline-block px-5">Entregar dinero</h3>
             <ul class="fs-4">
               <li>¿Cómo envío dinero?</li>
@@ -306,7 +308,7 @@
               <li>¿Que pasa si no lo retiran en mi país?</li>
             </ul>
           </div>
-          <div class="col-sm-12 col-md-4">
+          <div data-aos="fade-up" data-aos-duration="1000" class="col-sm-12 col-md-4">
             <h3 class="btn_faq my-4 d-inline-block px-5">Préstamos</h3>
             <ul class="fs-4">
               <li>¿Necesito papeles USA?</li>
@@ -320,18 +322,18 @@
       </div>
       <div class="container position-relative">
         <div class="d-flex align-items-center justify-content-center pt-c1">
-          <img src="assets/call_to_action.png" alt="Abrir mi cuneta" width="540">
+          <img data-aos="fade-right" src="assets/call_to_action.png" alt="Abrir mi cuneta" width="540">
           <div class="text-center move">
-            <a class="btn_2" href="#" target="_blank" rel="noopener noreferrer">Abrir mi cuenta</a>
+            <a data-aos="fade-left" data-aos-duration="1000" class="btn_2" href="#" target="_blank" rel="noopener noreferrer">Abrir mi cuenta</a>
             <div class="d-flex align-items-center justify-content-center mt-3 move2">
-              <img class="mx-2" src="assets/button_app_store.svg" alt="Botón de App store" width="152">
-              <img class="mx-2" src="assets/button_google_play.svg" alt="Botón de Google store" width="152">
+              <img data-aos="fade-up" data-aos-duration="1500" class="mx-2" src="assets/button_app_store_blue.svg" alt="Botón de App store" width="152">
+              <img data-aos="fade-up" data-aos-duration="2000" class="mx-2" src="assets/button_google_play_blue.svg" alt="Botón de Google store" width="152">
             </div>
           </div>
           <div class="position-absolute social_network">
-            <a class="btn_circle facebook color_2" href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a class="btn_circle instagram color_2" href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a class="btn_circle twitter color_2" href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a data-aos="fade-right" data-aos-duration="1500" class="btn_circle facebook color_2" href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a data-aos="fade-right" data-aos-duration="1000" class="btn_circle instagram color_2" href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a data-aos="fade-right" data-aos-duration="500" class="btn_circle twitter color_2" href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
           </div>
         </div>
       </div>
@@ -349,7 +351,7 @@
       </div>
     </footer>
   </section>
-  <img src="a.jpg" style="position: absolute;top: 0;opacity: .3;left: 50%;width: 1618px;transform: translateX(-50%); display: none;">
+  <!--img src="a.jpg" style="position: absolute;top: 0;opacity: .3;left: 50%;width: 1618px;transform: translateX(-50%); display: none;"-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   <script>
@@ -364,6 +366,10 @@
         $target.classList.add('active');
       }, false);
     });
+
+    AOS.init({
+		  duration: 1200,
+	  })
   </script>
 </body>
 </html>

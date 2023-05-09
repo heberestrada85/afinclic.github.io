@@ -191,6 +191,7 @@ section {
   filter: drop-shadow(1rem 0px 0px white);
   width: 20vw;
   top: 50px;
+  z-index: 999;
 }
 .p-c {
   padding-top: 21px;
