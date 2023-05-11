@@ -1,54 +1,76 @@
 @font-face {
   font-family: 'Matahari';
-  src: url('assets/fonts/Matahari/Matahari 100 Thin.eot');
-  src: url('assets/fonts/Matahari/Matahari 100 Thin.ttf'), format('truetype');
+  src: url('assets/fonts/Matahari/Matahari-100-Thin.eot');
+  src: url('assets/fonts/Matahari/Matahari-100-Thin.eot')  format('embedded-opentype'),
+       url('assets/fonts/Matahari/Matahari-100-Thin.ttf')  format('truetype'),
+       url('assets/fonts/Matahari/Matahari-100-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: 'Matahari';
-  src: url('assets/fonts/Matahari/Matahari 300 Light.eot.eot');
-  src: url('assets/fonts/Matahari/Matahari 300 Light.eot.ttf'), format('truetype');
+  src: url('assets/fonts/Matahari/Matahari-300-Light.eot.eot');
+  src: url('assets/fonts/Matahari/Matahari-300-Light.eot.eot')  format('embedded-opentype'),
+       url('assets/fonts/Matahari/Matahari-300-Light.eot.ttf')  format('truetype'),
+       url('assets/fonts/Matahari/Matahari-300-Light.eot.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Matahari';
-  src: url('assets/fonts/Matahari/Matahari 400 Regular.eot');
-  src: url('assets/fonts/Matahari/Matahari 400 Regular.ttf'), format('truetype');
+  src: url('assets/fonts/Matahari/Matahari-400-Regular.eot');
+  src: url('assets/fonts/Matahari/Matahari-400-Regular.eot')  format('embedded-opentype'),
+       url('assets/fonts/Matahari/Matahari-400-Regular.ttf')  format('truetype'),
+       url('assets/fonts/Matahari/Matahari-400-Regular.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Matahari';
+  src: url('assets/fonts/Matahari/Matahari-400-Regular.eot');
+  src: url('assets/fonts/Matahari/Matahari-400-Regular.eot')  format('embedded-opentype'),
+       url('assets/fonts/Matahari/Matahari-400-Regular.ttf')  format('truetype'),
+       url('assets/fonts/Matahari/Matahari-400-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Matahari';
-  src: url('assets/fonts/Matahari/Matahari 600 Semibold.eot');
-  src: url('assets/fonts/Matahari/Matahari 600 Semibold.ttf'), format('truetype');
+  src: url('assets/fonts/Matahari/Matahari-600-Semibold.eot');
+  src: url('assets/fonts/Matahari/Matahari-600-Semibold.eot')  format('embedded-opentype'),
+       url('assets/fonts/Matahari/Matahari-600-Semibold.ttf')  format('truetype'),
+       url('assets/fonts/Matahari/Matahari-600-Semibold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: 'Matahari';
-  src: url('assets/fonts/Matahari/Matahari 700 Bold.eot');
-  src: url('assets/fonts/Matahari/Matahari 700 Bold.ttf'), format('truetype');
+  src: url('assets/fonts/Matahari/Matahari-700-Bold.eot');
+  src: url('assets/fonts/Matahari/Matahari-700-Bold.eot')  format('embedded-opentype'),
+       url('assets/fonts/Matahari/Matahari-700-Bold.ttf')  format('truetype'),
+       url('assets/fonts/Matahari/Matahari-700-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Matahari';
-  src: url('assets/fonts/Matahari/Matahari 800 ExtraBold.eot');
-  src: url('assets/fonts/Matahari/Matahari 800 ExtraBold.ttf'), format('truetype');
+  src: url('assets/fonts/Matahari/Matahari-800-ExtraBold.eot');
+  src: url('assets/fonts/Matahari/Matahari-800-ExtraBold.eot')  format('embedded-opentype'),
+       url('assets/fonts/Matahari/Matahari-800-ExtraBold.ttf')  format('truetype'),
+       url('assets/fonts/Matahari/Matahari-800-ExtraBold.woff') format('woff');
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: 'Matahari';
-  src: url('assets/fonts/Matahari/Matahari 900 Black.eot');
-  src: url('assets/fonts/Matahari/Matahari 900 Black.ttf'), format('truetype');
+  src: url('assets/fonts/Matahari/Matahari-900-Black.eot');
+  src: url('assets/fonts/Matahari/Matahari-900-Black.eot')  format('embedded-opentype'),
+       url('assets/fonts/Matahari/Matahari-900-Black.ttf')  format('truetype'),
+       url('assets/fonts/Matahari/Matahari-900-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
 *{
-  font-family: Matahari, Helvetica, sans-serif;
+  font-family: 'Matahari', Helvetica, sans-serif;
 }
 :root {
   /** Colores */
@@ -57,6 +79,9 @@
   }
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+strong{
+  font-weight: 800;
 }
 ul {
   list-style: none !important;
@@ -79,6 +104,7 @@ section {
 }
 .items_slide li {
   margin-bottom: 18px;
+  font-weight: 400;
 }
 .items_slide,
 .navbar-nav {
@@ -109,9 +135,11 @@ section {
   letter-spacing: 1.5px;
   line-height: 92px;
   transform: translateY(-8px);
+  font-weight: 600;
 }
 .custom2 strong {
   letter-spacing: 0;
+  font-weight: 800;
 }
 .bg_slide {
   height: 64vh;
@@ -138,6 +166,7 @@ section {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 1.75rem;
+  font-weight: 600;
 }
 
 /* SERVICIOS */
@@ -211,6 +240,7 @@ section {
   text-align: center;
   text-transform: uppercase !important;
   width: 100%;
+  font-weight: 600;
 }
 .portafolio .row:not(:last-child) {
   margin-bottom: 55px;
@@ -226,6 +256,7 @@ section {
   letter-spacing: 4px;
   margin: 0 0 32px 0;
   padding: 0 19px;
+  font-weight: 600;
 }
 .testimoniales .p-custom {
   padding: 0 2rem 0 1.25rem;
@@ -233,7 +264,9 @@ section {
 .testimoniales .border {
   border-radius: 6rem;
 }
-
+.information{
+  font-weight: 800;
+}
 /* NOSOTROS */
 .nosotros {
   padding-top: 196px;
@@ -259,6 +292,7 @@ section {
   text-transform: uppercase;
   font-size: 21px;
   letter-spacing: 3px;
+  font-weight: 600;
 }
 .preguntas_frecuentes {
   padding: 34px 0 0 0;
@@ -287,6 +321,7 @@ section {
   margin: 0 -79px 0 0;
   line-height: 1;
   width: 508px;
+  font-weight: 600;
 }
 
 
@@ -334,6 +369,7 @@ section {
 
 .nav-link {
   color: white !important;
+  font-weight: 400;
 }
 .social_network {
   left: -7%;
