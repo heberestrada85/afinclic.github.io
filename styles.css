@@ -1,3 +1,55 @@
+@font-face {
+  font-family: 'Matahari';
+  src: url('assets/fonts/Matahari/Matahari 100 Thin.eot');
+  src: url('assets/fonts/Matahari/Matahari 100 Thin.ttf'), format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Matahari';
+  src: url('assets/fonts/Matahari/Matahari 300 Light.eot.eot');
+  src: url('assets/fonts/Matahari/Matahari 300 Light.eot.ttf'), format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Matahari';
+  src: url('assets/fonts/Matahari/Matahari 400 Regular.eot');
+  src: url('assets/fonts/Matahari/Matahari 400 Regular.ttf'), format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Matahari';
+  src: url('assets/fonts/Matahari/Matahari 600 Semibold.eot');
+  src: url('assets/fonts/Matahari/Matahari 600 Semibold.ttf'), format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Matahari';
+  src: url('assets/fonts/Matahari/Matahari 700 Bold.eot');
+  src: url('assets/fonts/Matahari/Matahari 700 Bold.ttf'), format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Matahari';
+  src: url('assets/fonts/Matahari/Matahari 800 ExtraBold.eot');
+  src: url('assets/fonts/Matahari/Matahari 800 ExtraBold.ttf'), format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Matahari';
+  src: url('assets/fonts/Matahari/Matahari 900 Black.eot');
+  src: url('assets/fonts/Matahari/Matahari 900 Black.ttf'), format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+*{
+  font-family: Matahari, Helvetica, sans-serif;
+}
 :root {
   /** Colores */
   --color-1: #41b1de;
